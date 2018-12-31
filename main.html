@@ -1,0 +1,105 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <div class="filter-inputs">
+        <input id="filter-inputs-type" placeholder="Тип" data-target="type">
+        <ul class="propose_list"></ul>
+    </div>
+    <div class="filter-inputs">
+        <input id="filter-inputs-material" placeholder="Матеріал" data-target="material">
+        <ul class="propose_list"></ul>
+    </div>
+    <div class="search-by-filters"></div>
+    <img class="list-close-button list-button-unactive" src="img/close.png" alt="" height="40px">
+
+</header>
+<ul class="admin_pool">
+</ul>
+<div class="setter">
+    <textarea class="main-task-text" type="text" value=""></textarea>
+    <input class="importance" type="text" placeholder="Важливість(1-3)">
+    <span class="set_submit">Додати завдання</span>
+    <div class="admin-arrow"><img src="img/arrow.png" alt=""></div>
+</div>
+<div class="pool">
+    <p class="pool-icon pool-icon-active">18</p>
+    <ul class="task-list">
+        <li class="task just-task">
+            <p>Прозвон Сільпо. Взяти номери Івана</p>
+            <p class="who-task"></p>
+        </li>
+        <li class="task task-in-process">
+            <p>Прозвон Сільпо. Взяти номери Івана</p>
+            <p class="who-task">Виконавець: Дэлбік</p>
+        </li>
+        <li class="task task-completed">
+            <p>Прозвон Сільпо. Взяти номери Івана</p>
+            <p class="who-task">Виконав: Конч</p>
+        </li>
+        <li class="task task-declined">
+            <p>Прозвон Сільпо. Взяти номери Івана</p>
+            <p class="who-task">Відхилено: Конч</p>
+        </li>
+        <li class="task just-task">
+            <p>Прозвон Сільпо. Взяти номери Івана</p>
+            <p class="who-task"></p>
+        </li>
+        <li class="task task-in-process">
+            <p>Прозвон Сільпо. Взяти номери Івана</p>
+            <p class="who-task">Виконавець: Дэлбік</p>
+        </li>
+        <li class="task task-completed">
+            <p>Прозвон Сільпо. Взяти номери Івана</p>
+            <p class="who-task">Виконав: Конч</p>
+        </li>
+        <li class="task task-declined">
+            <p>Прозвон Сільпо. Взяти номери Івана</p>
+            <p class="who-task">Відхилено: Конч</p>
+        </li>
+        <li class="task just-task">
+            <p>Прозвон Сільпо. Взяти номери ІванаПрозвон Сільпо. Взяти номери ІванаПрозвон Сільпо. Взяти номери ІванаПрозвон Сільпо. Взяти номери Івана</p>
+            <p class="who-task"></p>
+        </li>
+        <li class="task task-in-process">
+            <p>Прозвон Сільпо. Взяти номери Івана</p>
+            <p class="who-task">Виконавець: Дэлбік</p>
+        </li>
+        <li class="task task-completed">
+            <p>Прозвон Сільпо. Взяти номери Івана</p>
+            <p class="who-task">Виконав: Конч</p>
+        </li>
+        <li class="task task-declined">
+            <p>Прозвон Сільпо. Взяти номери Івана</p>
+            <p class="who-task">Відхилено: Конч</p>
+        </li>
+    </ul>
+</div>
+
+<div class="pop-up-wrapper">
+
+    <div class="pop-up">
+        <span>Коментар</span>
+        <textarea class="commentary-text" name="" id="" cols="30" rows="10" placeholder="Завдання"></textarea>
+        <div class="pop-up-buttons">
+            <p class="commentary-submit">Відправити</p>
+        </div>
+    </div>
+</div>
+<p class="par"></p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/main-script.js"></script>
+</body>
+</html>
